@@ -38,3 +38,6 @@ Rename ycm_extra_c_cpp_conf.y with dot and copy .ycm_extra_c_cpp_conf.py to YCM 
 * To resize to vertical windows, you can use " Space + v"
 * To open terminal as an adjacent window, you can use " Space + t"
 
+# Sample Screenshot
+![sample screenshot of editor](sample_screenshot.png "vim")
+NB: Back ground transparency is set in the ubuntu terminal properties. It is not part of the vim configuration.
