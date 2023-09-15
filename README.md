@@ -3,28 +3,27 @@ This is just a reference vimrc file which provides few modern IDE functionalitie
 
 # Steps to configure
 
-Please follow below steps on ubuntu OS.
-
-sudo apt install global
-sudo apt install ctags exuberant-ctags cscope cmake gcc g++
-sudo apt install python3 python3-dev
+Please install below packages on ubuntu OS.
+* sudo apt install global
+* sudo apt install ctags exuberant-ctags cscope cmake gcc g++
+* sudo apt install python3 python3-dev
 
 Create below dirs.
-mkdir ~/.vim/undodir -p
-mkdir ~/.cache/tags -p
+* mkdir ~/.vim/undodir -p
+* mkdir ~/.cache/tags -p
 
 Download plug.vim
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-   https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+* curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 Rename the vimrc with dot and copy .vimrc to user dir (~/).
 
 Open vimrc and Install all plugs inside vimrc and use below command in Esc mode.
-:PlugInstall
+ :PlugInstall
 
 Compile YoucompleteMe.
-cd ~/.vim/plugged/YouCompleteMe
-python3 install.py --clang-completer
+* cd ~/.vim/plugged/YouCompleteMe
+* python3 install.py --clang-completer
 
 Rename ycm_extra_c_cpp_conf.y with dot and copy .ycm_extra_c_cpp_conf.py to YCM dir.
 
@@ -38,6 +37,8 @@ Rename ycm_extra_c_cpp_conf.y with dot and copy .ycm_extra_c_cpp_conf.py to YCM 
 * To resize to vertical windows, you can use " Space + v"
 * To open terminal as an adjacent window, you can use " Space + t"
 
+# Thanks!
+[Primeagen](https://www.youtube.com/@ThePrimeagen) for explaining vim configuration details.
 # Sample Screenshot
 ![sample screenshot of editor](sample_screenshot.png "vim")
 NB: Back ground transparency is set in the ubuntu terminal properties. It is not part of the vim configuration.
