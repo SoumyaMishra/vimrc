@@ -18,8 +18,8 @@ Download plug.vim
 
 Rename the vimrc with dot and copy .vimrc to user dir (~/).
 
-Open vimrc and Install all plugs inside vimrc and use below command in Esc mode.
- :PlugInstall
+Open vimrc and Install all plugs inside vimrc and use below command in Esc mode. <br>
+:PlugInstall
 
 Compile YoucompleteMe.
 * cd ~/.vim/plugged/YouCompleteMe
@@ -38,7 +38,7 @@ Rename ycm_extra_c_cpp_conf.y with dot and copy .ycm_extra_c_cpp_conf.py to YCM 
 * To open terminal as an adjacent window, you can use " Space + t"
 
 # Thanks!
-[Primeagen](https://www.youtube.com/@ThePrimeagen) for explaining vim configuration details.
+Thanks @[Primeagen](https://www.youtube.com/@ThePrimeagen) for explaining vim configuration details.
 # Sample Screenshot
 ![sample screenshot of editor](sample_screenshot.png "vim")
 NB: Back ground transparency is set in the ubuntu terminal properties. It is not part of the vim configuration.
